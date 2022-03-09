@@ -1,0 +1,155 @@
+@media screen and (min-width: 71px) and (max-width: 1310px) {
+	body {
+	background: url(https://avatars.mds.yandex.net/get-images-cbir/1007757/I7h1eQMUT-RHH-EEqW3Rbw1936/ocr) no-repeat;
+	background-size: 100% 100%;
+	}
+}
+body {
+	background: url(https://avatars.mds.yandex.net/get-images-cbir/1007757/I7h1eQMUT-RHH-EEqW3Rbw1936/ocr) no-repeat;
+	background-size: cover;
+	color: rgb(39, 130, 248);
+	font-family: 'GardensC';
+	font-weight: 300;
+	font-size: 16px;
+
+
+/**-webkit-font-smoothing: antialiased-сглаживание шрита, на темном фоне более светлый текст например
+(subpixel-antialiased-более четкий текст для всех дисплеев, отличных от retina- 
+используются в ус-вах Apple;
+auto
+
+
+-webkit-font-smoothing: antialiased;
+
+
+
+-webkit-overflow-scrolling: touch- продолжение прокрутки в зависимости от интенсивности проведенной
+(auto- прекращение прокрутки при отпуске полосы прокрутки)
+**/
+	-webkit-font-smoothing: subpixel-antialiased;	
+	-webkit-overflow-scrolling: auto;
+
+	margin-top: 15px;
+}
+nav {
+	box-shadow: 0 0 5px rgb(18, 20, 26);
+}
+.navbar {
+	font-size: 20px;
+}
+/**
+.submenu:hover .navbar-bottom  {
+	display: block;
+
+}
+.navbar-bottom {
+	background: rgb(241, 241, 241);
+	max-width: 200px;
+	height: 65px;
+	position: absolute;
+	display: none;
+
+}
+**/
+.container-fluid {
+	top: 2%;
+}
+.navbar-nav a {
+	border-radius: 45% 45% 45% 45%;
+	display: inline-block;
+	z-index: 1;
+	margin-left: 20px;
+	
+}
+.navbar-nav > .active > a {
+	color: rgb(76, 153, 253);
+	max-height: 45px;
+}
+ a:hover, a:focus {
+	opacity: 0.4;
+	text-decoration: none;
+	outline: 0;
+	color: rgb(122, 178, 252);
+}
+.navbar-brand {
+	height: 60px;
+	letter-spacing: 1px;
+}
+.navbar-brand img {
+	width: 100px;
+	height:55px;
+}
+.nav-link-active {
+	color: rgb(122, 178, 252);
+}
+
+.carousel {
+	width: 400px;
+	position: relative;
+	margin: 0 auto;
+	background-color: white;
+	background-size: cover;
+	padding: 20px;
+	box-shadow: 0 0 5px rgb(18, 20, 26);
+}
+.carousel h3 {
+	margin-left: 2%;
+	margin-bottom: 5px;
+}
+.carousel-inner {
+
+}
+
+.carousel-inner img {
+	width: 200px;
+	height: 200px;
+}
+.carousel-control-prev img,
+.carousel-control-next img {
+	width: 40px;
+	height: 40px;
+}
+
+
+#mb {
+	background: white;
+	background-size: cover;
+	padding: 15px;
+	box-shadow: 0 0 15px rgb(18, 20, 26);
+	display: inline-block;
+}
+#mb h2{
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+#mb img {
+	padding: 30px;
+
+}
+
+
+#email-submit {
+	background-size: cover;
+	background: white;
+	margin: 10px;
+	padding: 20px;
+	font-size: 16px;
+}
+
+#email-submit form {
+	position: relative;
+	left: 70%;
+	width: 170%;
+	
+}
+#email-submit form input {
+	width: 40%;
+}
+#email-submit form button {
+	margin: 10px 0 10px;
+	padding: 5px;
+}
+
+
