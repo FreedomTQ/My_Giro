@@ -96,8 +96,8 @@ nav {
 	margin-left: 2%;
 	margin-bottom: 5px;
 }
-.carousel-inner {
-
+.carousel-item {
+	left: 20%;
 }
 
 .carousel-inner img {
